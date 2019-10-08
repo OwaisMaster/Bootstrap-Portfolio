@@ -166,9 +166,8 @@ body {
     opacity: 0.8;
   }
 
-  #hangman {
-    width: 100px;
-    height: 1000px;
+  #imgs {
+    height: 200px;
   }
   
   .work h3 {
@@ -184,45 +183,30 @@ body {
     background: #2b64af;
     border-bottom: 0;
   }
-  
-  /* contact page */
-  
-  #contact-form ul {
-    margin-bottom: 20px;
+
+  #repoLink {
+    margin: 0 0 0 70px;
+    color: black;
   }
+
   
-  #contact-form li {
-    margin-bottom: 10px;
-  }
+  /*contact page*/
   
-  label,
+  label {
+    margin-bottom: 5px;
+  },
   input[type=text],
   input[type=email],
   textarea {
     display: block;
     width: 100%;
   }
-  
-  input[type=text],
-  input[type=email],
-  textarea {
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border: 1px solid #dddddd;
+
+  .fa-github {
+  height: 50px;
+  color: black;
   }
   
-  textarea {
-    height: 200px;
+  #resume {
+    height: 50px;
   }
-  
-  input[type=submit] {
-    padding: 10px 30px;
-    margin: 10px 0 10px 0;
-    font-size: 18px;
-    color: #ffffff;
-    cursor: pointer;
-    background: #2b64af;
-    border: 0 none;
-  }
-  
